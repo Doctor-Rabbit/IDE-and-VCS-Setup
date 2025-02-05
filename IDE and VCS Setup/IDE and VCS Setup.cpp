@@ -1,3 +1,4 @@
+//Dispalys initials
 #include <iostream>
 using namespace std;
 int main()
