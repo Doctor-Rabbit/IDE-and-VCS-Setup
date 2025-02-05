@@ -1,11 +1,14 @@
+//displays name, address, and phone number
 #include <iostream>
 using namespace std;
 int main()
 {
-	char first, middle, last;
-	first = 'M';
-	middle = 'D';
-	last = 'M';
-	cout << first << middle << last;
+	string name, address, phone;
+	name = "Matthew Mangosing";
+	address = "101 My Street, Williamsburg, VA";
+	phone = "123-456-7890";
+	cout << name << endl;
+	cout << address << endl;
+	cout << phone << endl;
 	return 0;
 }
